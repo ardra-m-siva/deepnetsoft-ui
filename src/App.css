@@ -1,0 +1,68 @@
+.backgroundStyle-menu {
+  background-image: linear-gradient(#000000B5, #000000B5), url('https://s3-alpha-sig.figma.com/img/aefd/7aa0/f81b6208cb3da0f5ecc0f0d109ca4bd0?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Ab1YOq0aokgVj8SC875-OOekhM86KLHLndoPu-cczRg6xCHta-iVunsMLzDRo9KMXnJ2oMmP8Tb-PhQuvk2XaId3nsvYRMfdgbubypATIFrPxgvwTzXpNG9gB0mIZP1KJ9dEbvLaHNnDzceJ4ZWAlJob~vHw2O22TFDTt5EAb6uqm0TmyqhbWun~A74DmrPrdFDMpp1BkrJhzJPi4rPavZLn2s6vkJFGbN4jVC2G7RCrL1fZf5QbglO7uOsUnI96ElovpZxpVKDbanUnc4jnWT~3KqydEW2yZsepNT6xp71CuhS3m41s5lu7XafRKQ6wb233IXDBAufPdA67j4Gz-w__');
+  background-size: cover;
+  background-position: top;
+  height: 311px;
+}
+
+.background-menuList {
+  background-image: linear-gradient(#000000CC, #000000CC), url('https://s3-alpha-sig.figma.com/img/0571/aff9/d875fd6fec8f3801ba095cc39be0e4b1?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=I9BIA0TYVCIJ8Z502lexsOfWr5yk4SzCqBWHfErSUkuVCcUA4SZDGJjmSUNpdqBXUb3wfXmpxBEySQBzaiFBtCao6qTCTuE60zFfb6miHhJS67YD-qq5F~~bj7tNJ1wVYz385pvI7IWS7pyZ6AeS3DYL7--ttIMlhF6vV2CBtVHJ-VuAlGi-hrbby9TwivFge96aWFTD01Mx1uFfe-rrhgc~BK9LAHLGxAGbmTrOBwnj-50hkls0ybyQC0memffkOY0pjYl2rfQaVEbv-54Aeblp6w6tbpQganp9ayNbsSlNqqzPdnkgZ-7q9YJr7yhB~zddgkPfQqC8NlgA6~~fGA__');
+  height: 79px;
+}
+
+.descriptionSection {
+  background-image: linear-gradient(#000000CC, #000000CC), url('https://s3-alpha-sig.figma.com/img/53f3/e533/f37f4a258b3eea846bf145fb95b71dfd?Expires=1743984000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=XAHlPjIBXbN5RngFWAbl9Yq6VkZ~4X72f6TH7wl5uhSAUkrqsZ5QxzlOJ1PtBM5bxJI8Em9lRfm1Zf-yQTb9~UjHdYjYQQQHAPhcTVXERgmpJZ81qHARVmkYS9PCDwWb6PedgWHAn0-aWTQInsILEwpSQPcBROXgnWHed5ITcKhXU-fg7wUa391qo5V0gVsOucRn-xG3LdCtdeRqabYmtcJpne5s4vwI5UirTBd9~Y7RD7rpFakl0G-dvDMezrzyHIr2Scncyt-LTRgfUG~ubpAiJjLJposqQ2jQliIpxcKrfX5ewjjFXtmoJeRKAWkVk6RUEf7Bh5070sc6Owpz8w__');
+  height: 672px;
+}
+
+.btn-style {
+  border: 1px solid #0796EF;
+  background-color: transparent;
+  color: white;
+}
+
+.juice-container {
+  position: relative;
+}
+
+.juice-image {
+  position: absolute;
+  top: -180px;
+  left: -5%;
+}
+
+.juice-plate {
+  position: absolute;
+  top: 110%;
+  right: 10%;
+}
+
+.connect-Deepnet {
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-right: 15px;
+  text-align: center;
+  padding: 15px;
+}
+
+.logo-container {
+ position: absolute;
+ width: 86px;
+ left: 160px;
+ top: 50px;
+ 
+}
+
+@media (max-width: 768px) {
+  .juice-image {
+    top: -5px;
+    width: 100px;
+    left: -5%
+  }
+
+  .juice-plate {
+    top: 148%;
+    width: 100px;
+    right: 7%;
+  }
+}
