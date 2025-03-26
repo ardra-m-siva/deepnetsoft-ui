@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
+import { useEffect, useState } from 'react'
 import { Button, Modal } from 'react-bootstrap'
 import { addFoodMenuItemApi, getAllFoodItemApi } from '../services/allApi';
-
-const MenuSection = ({selectedMenu}) => {
-    
+export const MenuSect = ({ selectedMenu }) => {
     const [show, setShow] = useState(false);
     const [foodDetails, setFoodDetails] = useState(false);
     const [foodItem, setFoodItem] = useState({
@@ -14,7 +13,7 @@ const MenuSection = ({selectedMenu}) => {
             getAllFoodItem();
         }
     }, [selectedMenu?.name])
-    
+
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -55,7 +54,7 @@ const MenuSection = ({selectedMenu}) => {
         } catch (err) {
             console.log(err);
         }
-    }    
+    }
     return (
         <>
             <div className='descriptionSection d-flex align-items-center'>
@@ -75,8 +74,8 @@ const MenuSection = ({selectedMenu}) => {
                                     {
                                         foodDetails.length > 0 ?
                                             foodDetails.map(item => (
-                                                <div  className='col-lg-6 px-4 py-2'>
-                                                    <h4 className='text-white'>{item.title }........................${item.price}</h4>
+                                                <div className='col-lg-6 px-4 py-2'>
+                                                    <h4 className='text-white'>{item.title}........................${item.price}</h4>
                                                     <p className='fw-normal text-light text-left' style={{ fontFamily: '"Kelly Slab", sans-serif' }}>{item?.itemDescription}</p>
                                                 </div>
                                             ))
@@ -112,9 +111,6 @@ const MenuSection = ({selectedMenu}) => {
                     </Button>
                 </Modal.Footer>
             </Modal>
-
         </>
     )
 }
-
-export default MenuSection
